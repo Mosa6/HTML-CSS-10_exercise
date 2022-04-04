@@ -69,4 +69,28 @@ footer {
 }
 
 @media screen and (max-width:768px) {
+  header {
+    width: 100%;
+  }
+
+
+  main {
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .box-step {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+
+  .box-step:last-child {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
